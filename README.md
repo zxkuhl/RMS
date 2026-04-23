@@ -74,5 +74,6 @@ This software is proprietary. You may not modify, redistribute, or use any part 
 - 🐛 [Issues](https://github.com/zxkuhl/RMS/issues)
 - ❤️ [Sponsor](https://github.com/sponsors/zxkuhl)
 
-- ## UI Preview
+
+## UI Preview
 ![UI](./screenshots/ui.png)
