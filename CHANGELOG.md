@@ -4,7 +4,7 @@ All notable changes to RMS will be documented here.
 
 ---
 
-## [1.0.0] - 2026-04-23
+## [v1.14.8] - 2026-04-23
 
 ### Initial Release
 - First public release of RMS
