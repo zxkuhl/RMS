@@ -30,17 +30,6 @@ RMS is a modification for Discord's desktop app built on top of Vencord. It lets
 
 > If Windows SmartScreen blocks it, click **More info → Run anyway**
 
-### Build from Source
-
-```bash
-# Requirements: Node.js, pnpm
-git clone https://github.com/zxkuhl/RMS.git
-cd RMS
-pnpm install
-pnpm build
-```
-
-Then copy the contents of `dist/` to `%AppData%\RMS\dist\` and patch Discord manually.
 
 ## Usage
 
