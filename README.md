@@ -6,7 +6,7 @@
 
 ## What is RMS?
 
-RMS is a modification for Discord's desktop app built on top of Vencord. It lets you extend Discord with plugins that add new features and themes that change how it looks — without touching Discord's files in any unsafe way.
+RMS is a modification for Discord's desktop app. It lets you extend Discord with plugins that add new features and themes that change how it looks — without touching Discord's files in any unsafe way.
 
 ## Features
 
