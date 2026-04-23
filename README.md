@@ -72,8 +72,10 @@ This software is proprietary. You may not modify, redistribute, or use any part 
 
 - 📖 [Wiki](https://zxkuhl.github.io/RMS/wiki/)
 - 🐛 [Issues](https://github.com/zxkuhl/RMS/issues)
-- ❤️ [![Sponsor](https://img.shields.io/badge/Sponsor-GitHub-%23ea4aaa?logo=github)](https://github.com/sponsors/zxkuhl)
+- ❤️ [Sponsor](https://github.com/sponsors/zxkuhl)
 
 
 ## UI Preview
 ![UI](./screenshots/ui.png)
+
+[![Sponsor](https://img.shields.io/badge/Sponsor-GitHub-%23ea4aaa?logo=github)](https://github.com/sponsors/zxkuhl)
