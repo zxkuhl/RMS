@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RMS — Plugins</title>
+<link rel="icon" href="./RMS.ico">
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<nav>
+    <a class="nav-logo" href="./index.html">
+        <img src="./RMS.ico" alt="RMS">
+        <span><em>RMS</em> Wiki</span>
+    </a>
+    <ul>
+        <li class="nav-section">Getting Started</li>
+        <li><a href="./index.html"><span class="icon">🏠</span> Home</a></li>
+        <li><a href="./installation.html"><span class="icon">⬇️</span> Installation</a></li>
+        <li class="nav-section">Features</li>
+        <li><a href="./plugins.html" class="active"><span class="icon">🧩</span> Plugins</a></li>
+        <li><a href="./themes.html"><span class="icon">🎨</span> Themes</a></li>
+        <li><a href="./updater.html"><span class="icon">🔄</span> Updater</a></li>
+        <li class="nav-section">Help</li>
+        <li><a href="./faq.html"><span class="icon">❓</span> FAQ</a></li>
+    </ul>
+</nav>
+
+<main>
+    <h1 style="font-size:30px;font-weight:700;letter-spacing:-0.5px;margin-bottom:6px;">Plugins</h1>
+    <p style="color:#666;margin-bottom:32px;">Plugins extend Discord with new features. Enable or disable them individually in RMS Settings → Plugins.</p>
+
+    <h2>How to Use Plugins</h2>
+    <div class="steps">
+        <div class="step">
+            <div class="step-num">1</div>
+            <div class="step-body"><h3>Open Discord Settings</h3><p>Click the gear icon at the bottom left of Discord.</p></div>
+        </div>
+        <div class="step">
+            <div class="step-num">2</div>
+            <div class="step-body"><h3>Go to RMS → Plugins</h3><p>Scroll down in settings to find the RMS section, then click Plugins.</p></div>
+        </div>
+        <div class="step">
+            <div class="step-num">3</div>
+            <div class="step-body"><h3>Toggle plugins on or off</h3><p>Click the toggle next to any plugin to enable or disable it. Some plugins have a settings gear icon for extra options.</p></div>
+        </div>
+    </div>
+
+    <h2>Notable Plugins</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Plugin</th>
+                <th>Description</th>
+                <th>Default</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td><strong>FakeNitro</strong></td><td>Use any emoji, sticker, and stream in high quality without Nitro</td><td>✅ On</td></tr>
+            <tr><td><strong>NoTrack</strong></td><td>Disables Discord's analytics and tracking</td><td>✅ On</td></tr>
+            <tr><td><strong>AlwaysAnimate</strong></td><td>Animated avatars and emojis always play, even without Nitro</td><td>✅ On</td></tr>
+            <tr><td><strong>CrashHandler</strong></td><td>Catches crashes and shows a recovery dialog instead of a white screen</td><td>✅ On</td></tr>
+            <tr><td><strong>RMSToolbox</strong></td><td>Extra RMS utilities and quick actions</td><td>❌ Off</td></tr>
+            <tr><td><strong>BetterSettings</strong></td><td>Improves the settings panel layout</td><td>❌ Off</td></tr>
+            <tr><td><strong>ImageZoom</strong></td><td>Zoom in on images by scrolling</td><td>❌ Off</td></tr>
+            <tr><td><strong>MessageLogger</strong></td><td>Log deleted and edited messages</td><td>❌ Off</td></tr>
+            <tr><td><strong>SpotifyControls</strong></td><td>Show Spotify playback controls in Discord</td><td>❌ Off</td></tr>
+            <tr><td><strong>ShowHiddenChannels</strong></td><td>See channels you don't have access to</td><td>❌ Off</td></tr>
+            <tr><td><strong>Translate</strong></td><td>Translate messages inline with one click</td><td>❌ Off</td></tr>
+            <tr><td><strong>VolumeBooster</strong></td><td>Boost user volume beyond Discord's 200% limit</td><td>❌ Off</td></tr>
+            <tr><td><strong>CustomRPC</strong></td><td>Set a fully custom rich presence</td><td>❌ Off</td></tr>
+            <tr><td><strong>SilentTyping</strong></td><td>Type without showing the typing indicator</td><td>❌ Off</td></tr>
+            <tr><td><strong>Browser</strong></td><td>Built-in browser inside Discord with tabs and bookmarks</td><td>❌ Off</td></tr>
+        </tbody>
+    </table>
+
+    <div class="callout info">
+        <span class="callout-icon">ℹ️</span>
+        Core API plugins like CommandsAPI, MessageEventsAPI, and UserSettingsAPI are always enabled and cannot be turned off — other plugins depend on them.
+    </div>
+
+    <h2>Plugin Settings</h2>
+    <p>Many plugins have their own settings. Click the <strong>gear icon</strong> next to a plugin name to configure it. Settings are saved automatically.</p>
+
+    <footer>RMS Wiki — Made by zxkuhl. Not affiliated with Discord Inc.</footer>
+</main>
+
+</body>
+</html>

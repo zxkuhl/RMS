@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RMS — Installation</title>
+<link rel="icon" href="./RMS.ico">
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<nav>
+    <a class="nav-logo" href="./index.html">
+        <img src="./RMS.ico" alt="RMS">
+        <span><em>RMS</em> Wiki</span>
+    </a>
+    <ul>
+        <li class="nav-section">Getting Started</li>
+        <li><a href="./index.html"><span class="icon">🏠</span> Home</a></li>
+        <li><a href="./installation.html" class="active"><span class="icon">⬇️</span> Installation</a></li>
+        <li class="nav-section">Features</li>
+        <li><a href="./plugins.html"><span class="icon">🧩</span> Plugins</a></li>
+        <li><a href="./themes.html"><span class="icon">🎨</span> Themes</a></li>
+        <li><a href="./updater.html"><span class="icon">🔄</span> Updater</a></li>
+        <li class="nav-section">Help</li>
+        <li><a href="./faq.html"><span class="icon">❓</span> FAQ</a></li>
+    </ul>
+</nav>
+
+<main>
+    <h1 style="font-size:30px;font-weight:700;letter-spacing:-0.5px;margin-bottom:6px;">Installation</h1>
+    <p style="color:#666;margin-bottom:32px;">Follow these steps to install RMS on your PC.</p>
+
+    <div class="btn-row" style="margin-top:0;margin-bottom:32px;">
+        <a class="btn btn-primary" href="./RMSInstaller.zip" download>⬇ Download RMSInstaller.zip</a>
+    </div>
+
+    <h2>Requirements</h2>
+    <ul style="padding-left:20px;line-height:2;color:#444;font-size:15px;">
+        <li>Windows 10 or later</li>
+        <li>Discord desktop app installed</li>
+        <li>Internet connection (installer downloads files from GitHub)</li>
+    </ul>
+
+    <h2>Install Steps</h2>
+    <div class="steps">
+        <div class="step">
+            <div class="step-num">1</div>
+            <div class="step-body">
+                <h3>Download the zip</h3>
+                <p>Click the download button above to get <code>RMSInstaller.zip</code>.</p>
+            </div>
+        </div>
+        <div class="step">
+            <div class="step-num">2</div>
+            <div class="step-body">
+                <h3>Extract the zip</h3>
+                <p>Right-click the zip → Extract All. Open the extracted folder.</p>
+            </div>
+        </div>
+        <div class="step">
+            <div class="step-num">3</div>
+            <div class="step-body">
+                <h3>Unblock the exe</h3>
+                <p>Right-click <code>RMSInstaller.exe</code> → Properties → check <strong>Unblock</strong> at the bottom → click OK. This stops Windows from blocking it.</p>
+            </div>
+        </div>
+        <div class="step">
+            <div class="step-num">4</div>
+            <div class="step-body">
+                <h3>Run the installer</h3>
+                <p>Double-click <code>RMSInstaller.exe</code>. If SmartScreen appears, click <strong>More info → Run anyway</strong>.</p>
+            </div>
+        </div>
+        <div class="step">
+            <div class="step-num">5</div>
+            <div class="step-body">
+                <h3>Accept the license</h3>
+                <p>Read and accept the license agreement, then click <strong>Continue</strong>.</p>
+            </div>
+        </div>
+        <div class="step">
+            <div class="step-num">6</div>
+            <div class="step-body">
+                <h3>Click Install</h3>
+                <p>The installer will download the latest RMS files from GitHub and patch Discord automatically.</p>
+            </div>
+        </div>
+        <div class="step">
+            <div class="step-num">7</div>
+            <div class="step-body">
+                <h3>Restart Discord</h3>
+                <p>Fully quit Discord (right-click tray icon → Quit Discord) and reopen it. You should now see <strong>RMS Settings</strong> in your Discord settings.</p>
+            </div>
+        </div>
+    </div>
+
+    <h2>If Windows Blocks It</h2>
+    <div class="callout warn">
+        <span class="callout-icon">⚠️</span>
+        Windows SmartScreen may block the installer because it's not signed by a major certificate authority. This is normal for open-source tools.
+    </div>
+
+    <h3>Option 1 — Unblock in Properties</h3>
+    <div class="steps">
+        <div class="step">
+            <div class="step-num">1</div>
+            <div class="step-body"><h3>Right-click the exe</h3><p>Select <strong>Properties</strong> from the menu.</p></div>
+        </div>
+        <div class="step">
+            <div class="step-num">2</div>
+            <div class="step-body"><h3>Check Unblock</h3><p>At the bottom of the General tab, check the <strong>Unblock</strong> checkbox.</p></div>
+        </div>
+        <div class="step">
+            <div class="step-num">3</div>
+            <div class="step-body"><h3>Click OK and run</h3><p>Click OK then double-click the exe again.</p></div>
+        </div>
+    </div>
+
+    <h3>Option 2 — SmartScreen popup</h3>
+    <p>If SmartScreen shows a blue popup saying "Windows protected your PC", click <strong>More info</strong> then <strong>Run anyway</strong>.</p>
+
+    <h3>Option 3 — PowerShell</h3>
+    <p>Open PowerShell and run:</p>
+    <pre style="background:#f3f4f6;padding:14px;border-radius:8px;font-family:'DM Mono',monospace;font-size:13px;overflow-x:auto;margin:8px 0;">Unblock-File -Path "C:\path\to\RMSInstaller.exe"</pre>
+
+    <h2>Uninstall</h2>
+    <p>Open <code>RMSInstaller.exe</code> again and click <strong>Uninstall</strong>. This will remove all RMS files and restore Discord to its original state. Then restart Discord.</p>
+
+    <footer>RMS Wiki — Made by zxkuhl. Not affiliated with Discord Inc.</footer>
+</main>
+
+</body>
+</html>

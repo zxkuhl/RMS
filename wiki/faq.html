@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RMS — FAQ</title>
+<link rel="icon" href="./RMS.ico">
+<link rel="stylesheet" href="./style.css">
+<style>
+.faq-item { border-bottom: 1px solid var(--border); padding: 18px 0; }
+.faq-item:last-child { border-bottom: none; }
+.faq-q { font-size: 15px; font-weight: 600; cursor: pointer; display: flex; justify-content: space-between; align-items: center; }
+.faq-q:hover { color: var(--red); }
+.faq-a { font-size: 14px; color: #555; line-height: 1.7; margin-top: 10px; display: none; }
+.faq-item.open .faq-a { display: block; }
+.faq-item.open .faq-arrow { transform: rotate(180deg); }
+.faq-arrow { transition: transform 0.2s; font-size: 12px; color: #aaa; }
+</style>
+</head>
+<body>
+
+<nav>
+    <a class="nav-logo" href="./index.html">
+        <img src="./RMS.ico" alt="RMS">
+        <span><em>RMS</em> Wiki</span>
+    </a>
+    <ul>
+        <li class="nav-section">Getting Started</li>
+        <li><a href="./index.html"><span class="icon">🏠</span> Home</a></li>
+        <li><a href="./installation.html"><span class="icon">⬇️</span> Installation</a></li>
+        <li class="nav-section">Features</li>
+        <li><a href="./plugins.html"><span class="icon">🧩</span> Plugins</a></li>
+        <li><a href="./themes.html"><span class="icon">🎨</span> Themes</a></li>
+        <li><a href="./updater.html"><span class="icon">🔄</span> Updater</a></li>
+        <li class="nav-section">Help</li>
+        <li><a href="./faq.html" class="active"><span class="icon">❓</span> FAQ</a></li>
+    </ul>
+</nav>
+
+<main>
+    <h1 style="font-size:30px;font-weight:700;letter-spacing:-0.5px;margin-bottom:6px;">FAQ</h1>
+    <p style="color:#666;margin-bottom:32px;">Common questions about RMS.</p>
+
+    <div id="faq">
+        <div class="faq-item">
+            <div class="faq-q">Is RMS safe? <span class="faq-arrow">▼</span></div>
+            <div class="faq-a">RMS is open source and you can review the code on GitHub. It does not steal your token, log your messages, or send any data to third parties. However, it does modify Discord's client which could theoretically be detected by Discord.</div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-q">Will I get banned for using RMS? <span class="faq-arrow">▼</span></div>
+            <div class="faq-a">Using client mods technically violates Discord's Terms of Service. Discord has never issued a ban wave specifically targeting Vencord-based mods, but there is always a theoretical risk. Use at your own discretion.</div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-q">Windows is blocking the installer, what do I do? <span class="faq-arrow">▼</span></div>
+            <div class="faq-a">Right-click the exe → Properties → check Unblock → OK. If SmartScreen pops up, click More info → Run anyway. This happens because the installer isn't signed by a paid certificate authority, which is normal for free open-source tools.</div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-q">RMS Settings don't show up in Discord after installing <span class="faq-arrow">▼</span></div>
+            <div class="faq-a">Make sure you fully quit Discord first — right-click the tray icon and click Quit Discord, then reopen it. Just closing the window doesn't restart it.</div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-q">How do I uninstall RMS? <span class="faq-arrow">▼</span></div>
+            <div class="faq-a">Run RMSInstaller.exe again and click Uninstall. This removes all RMS files from AppData and restores Discord. Then restart Discord and it'll be back to normal.</div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-q">Does RMS work on Mac or Linux? <span class="faq-arrow">▼</span></div>
+            <div class="faq-a">The RMS installer is Windows-only. The core mod may work on other platforms if you build from source, but this is not officially supported.</div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-q">My plugins reset after a Discord update, what happened? <span class="faq-arrow">▼</span></div>
+            <div class="faq-a">When Discord updates itself it can overwrite the patch. Open RMSInstaller.exe and click Reinstall to re-patch Discord with the latest RMS files.</div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-q">Where are my settings stored? <span class="faq-arrow">▼</span></div>
+            <div class="faq-a">All RMS settings are stored in <code>%AppData%\RMS\settings\settings.json</code>. Your QuickCSS is at <code>%AppData%\RMS\settings\quickCss.css</code> and themes are in <code>%AppData%\RMS\themes\</code>.</div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-q">How do I report a bug or request a feature? <span class="faq-arrow">▼</span></div>
+            <div class="faq-a">Open an issue on the <a href="https://github.com/zxkuhl/RMS" target="_blank" style="color:var(--red);">GitHub repo</a>.</div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-q">How can I support RMS? <span class="faq-arrow">▼</span></div>
+            <div class="faq-a">You can sponsor the project on <a href="https://github.com/sponsors/zxkuhl" target="_blank" style="color:var(--red);">GitHub Sponsors</a>. Stars on the repo also help!</div>
+        </div>
+    </div>
+
+    <footer>RMS Wiki — Made by zxkuhl. Not affiliated with Discord Inc.</footer>
+</main>
+
+<script>
+document.querySelectorAll('.faq-q').forEach(q => {
+    q.addEventListener('click', () => {
+        q.parentElement.classList.toggle('open');
+    });
+});
+</script>
+
+</body>
+</html>
