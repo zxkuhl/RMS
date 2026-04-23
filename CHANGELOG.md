@@ -9,6 +9,8 @@ All notable changes to RMS will be documented here.
 ### Initial Release
 - First public release of RMS
 
+### known bug
+- known bug is auto updater currently doesnt work next update should fix, however manual updater works all you have to do is check for updates and if an updates avalible then press update.
 ---
 
 <!-- 
