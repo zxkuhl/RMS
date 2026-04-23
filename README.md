@@ -70,6 +70,6 @@ This software is proprietary. You may not modify, redistribute, or use any part 
 
 ## Support
 
-- 📖 [Wiki](https://github.com/zxkuhl/RMS/wiki)
+- 📖 [Wiki](https://zxkuhl.github.io/RMS/wiki/)
 - 🐛 [Issues](https://github.com/zxkuhl/RMS/issues)
 - ❤️ [Sponsor](https://github.com/sponsors/zxkuhl)
