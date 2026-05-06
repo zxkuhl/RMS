@@ -1,0 +1,34 @@
+{
+    "news": [
+        {
+            "id": "1",
+            "type": "announcement",
+            "title": "RMS v1.20.1 Released",
+            "body": "RMS v1.20.1 is now available! This update fixes compatibility with the latest Discord update and adds the new About tab.",
+            "image": "https://raw.githubusercontent.com/zxkuhl/RMS/main/assets/banner.png",
+            "date": "2026-05-03",
+            "url": "https://github.com/zxkuhl/RMS/releases/tag/1.20.1",
+            "urlLabel": "View Release"
+        },
+        {
+            "id": "2",
+            "type": "update",
+            "title": "Updater Fixed",
+            "body": "The in-Discord updater now correctly detects and applies updates. Auto update is now fully functional.",
+            "image": null,
+            "date": "2026-05-02",
+            "url": null,
+            "urlLabel": null
+        },
+        {
+            "id": "3",
+            "type": "info",
+            "title": "Welcome to RMS",
+            "body": "Thanks for installing RMS! Join our Discord server to get support, report bugs, and stay up to date.",
+            "image": null,
+            "date": "2026-04-21",
+            "url": "https://discord.gg/TdaWNwNAMa",
+            "urlLabel": "Join Discord"
+        }
+    ]
+}
