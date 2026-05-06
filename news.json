@@ -5,7 +5,7 @@
             "type": "announcement",
             "title": "RMS v1.20.1 Released",
             "body": "RMS v1.20.1 is now available! This update fixes compatibility with the latest Discord update and adds the new About tab.",
-            "image": "https://raw.githubusercontent.com/zxkuhl/RMS/main/assets/banner.png",
+            "image": "https://raw.githubusercontent.com/zxkuhl/RMS/main/assets/banner.svg",
             "date": "2026-05-03",
             "url": "https://github.com/zxkuhl/RMS/releases/tag/1.20.1",
             "urlLabel": "View Release"
