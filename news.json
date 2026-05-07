@@ -29,6 +29,16 @@
             "date": "2026-04-21",
             "url": "https://discord.gg/TdaWNwNAMa",
             "urlLabel": "Join Discord"
+        },
+        {
+            "id": "4",
+            "type": "announcement",
+            "title": "RMSTop v1.6.5 Released",
+            "body": "RMSTop v1.6.5 is now available! This release includes the latest RMSTop build with bug fixes and improvements. Download the dist.zip from the release page, run the setup, and once finished you can safely delete the dist files.",
+            "image": "https://raw.githubusercontent.com/zxkuhl/RMS/main/assets/banner.svg",
+            "date": "2026-05-07",
+            "url": "https://github.com/zxkuhl/RMSTop/releases/tag/RMSTopEXEv1.6.5",
+            "urlLabel": "View Release"
         }
     ]
 }
