@@ -22,7 +22,17 @@ All notable changes to RMS will be documented here.
     about tab
 ### notice
     still broken auto updater
+    
+[v1.28.1] - 2026-5-6
 
+### Fixed
+    auto update, broken update broken plugins, and more
+    
+### Added
+    new plugins, tab icon, and more content
+
+### Changed
+    new version 1.28.1v    
 <!-- 
 Template for future updates:
 
