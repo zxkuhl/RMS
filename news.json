@@ -33,11 +33,11 @@
         {
             "id": "4",
             "type": "announcement",
-            "title": "RMSTop v1.6.5 Released",
-            "body": "RMSTop v1.6.5 is now available! This release includes the latest RMSTop build with bug fixes and improvements. Download the dist.zip from the release page, run the setup, and once finished you can safely delete the dist files.",
+            "title": "RMSTop v1.6.6 Released",
+            "body": "RMSTop v1.6.6 is now available! This release includes the latest RMSTop build with bug fixes and improvements. Download RMSTop 1.6.6 setup.exe from the release page, run it, and once finished RMSTop is installed and ready for use!",
             "image": "https://raw.githubusercontent.com/zxkuhl/RMS/main/assets/banner.svg",
-            "date": "2026-05-07",
-            "url": "https://github.com/zxkuhl/RMSTop/releases/tag/RMSTopEXEv1.6.5",
+            "date": "2026-05-08",
+            "url": "https://github.com/zxkuhl/RMSTop/releases/tag/1.6.6",
             "urlLabel": "View Release"
         }
     ]
