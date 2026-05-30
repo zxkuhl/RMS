@@ -3,12 +3,12 @@
         {
             "id": "1",
             "type": "announcement",
-            "title": "IMPORTANT",
-            "body": "due to some errors i cant succesfully make the next version of RMS i am working on fixing this to make an update but things arent working exactly well. (some help would be nice)",
-            "image": "https://raw.githubusercontent.com/zxkuhl/RMS/main/assets/banner.svg",
+            "title": "RMSDroid IS NOW AVALIBLE FOR ALL ANDROID USERS!",
+            "body": "After so long of fixing errors and doing stuff RMSDroid is now fixed and avalible RMSDroid will soon have its own repo!",
+            "image": null,
             "date": "2026-05-15",
             "url": "https://github.com/zxkuhl/RMS/delay_details.txt",
-            "urlLabel": "View details"
+            "urlLabel": "View Repo"
         },
         {
             "id": "2",
